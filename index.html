@@ -68,7 +68,7 @@
 
                  <div class="container">
                     <h1 class="main-slogan hero-after-title">Эффективные решения для вашего бизнеса</h1> 
-                    <button data-modal-open class="button primary btn " type="button">Заказать услугу</button>
+                    <button data-modal-open class="button primary" type="button">Заказать услугу</button>
                 </div>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
@@ -79,8 +79,44 @@
                                 </use>
                             </svg>
                         </button>
-
-                        </a>
+                    
+                        <div class="backdrop-form">
+                                <form class="modal-form">
+                                   <p class="form-text-hero">Оставьте свои данные, мы вам перезвоним</p>
+                                        
+                                            <div class="form-hero">
+                                            <label for="name">Имя</label>
+                                                <input class="form-hero-input" type="text" name="username" autofocus id="name"/>
+                                                <svg class="modal-form-icon" width="18px" height="18px">
+                                                    <use href="./img/page-3/icon/icons.svg#icon-person-black">
+                                                
+                                                    </use>
+                                                </svg>
+                                            </div>
+                                            <div class="form-hero">
+                                            <label for="tel">Телефон</label>
+                                                <input class="form-hero-input" type="tel" name="tel" autofocus id="tel"/>
+                                            </div>
+                                            <div class="form-hero">
+                                            <label for="email">Почта</label>
+                                                <input class="form-hero-input" type="email" name="email" id="email" />
+                                            </div>
+                                            <div class="form-hero">
+                                            <label for="comment">Комментарий</label>
+                                                <textarea class="comment" name="comment" rows="8" placeholder="Введите текст"></textarea>
+                                            </div>
+                                            <div class="form-hero-checbox">
+                                                <input type="checkbox" name="agree" value="agree" id="agree" />
+                                                <span class="icon"></span>
+                                                <label for="email">Соглашаюсь с рассылкой и принимаю&nbsp; <a class="form-hero-link" href="index.html">Условия
+                                                 договора</a></label>
+                                            </div>
+                                           
+                                   
+                              
+                                    <button class="button primary" type="submit">Отправить</button>
+                                </form>
+                            </div>
                     </div>
                 </div>
 
@@ -450,9 +486,25 @@
                     </li>
                 </ul>
             </div>
+            <div class="distribution-form">
+                <form class="">
+                    <p class="label-footer">Подпишитесь на рассылку</p>
+                    <div class="footer-form">
+                      <input class="input-footer" type="email" name="mail" placeholder="E-mail" id="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                    title="mail@mail.com">
+
+                        <button class="button-form primary" type="submit">Подписаться
+                             <svg class="form-icon-footer" width="24px" height="24px">
+                              <use href="./img/page-3/icon/icons.svg#icon-icon-send">
+                              </use>
+                          </svg>
+                        </button>
+                        </div>
+                </form>
+                
+            </div>
         </div>
-    
-    
+   
     
     </footer>
 
